@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+//declaration: name, parameters(), return
+bool isPotato(string bob);
+int main() {
+	//call
+	cout<<isPotato("potato");
+
+}
+
+bool isPotato(string bob) {
+	if (bob == "potato") //chars have single quotes, string have double quotes
+		return true;
+	else
+		return false;
+
+}
