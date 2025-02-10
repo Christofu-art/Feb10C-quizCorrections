@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+float pyramidvolume(int lenght, int width, int height);
+
+int main() {
+	//call
+	cout << pyramidvolume(2, 3, 4);
+}
+
+//definition
+float pyramidvolume(int length, int width, int height) {
+	return (length * width * height) / 3;
+}
+
